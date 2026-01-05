@@ -59,7 +59,7 @@ function App()
               </div>
               <div className="navbar_date">
                   <h3 className="navbar_date_calender">{cityData?.current?.time.split('T')[0].replaceAll('-', '/')}</h3>
-                  <h4 className="navbar_date_time">{cityData?.current?.time.split('T')[1] + (cityData?.current?.is_day === 0 ? "AM" : "PM")}</h4>
+                  <h4 className="navbar_date_time">{cityData?.current?.time.split('T')[1] + (cityData?.current?.is_day === 0 ? "AM " : "PM ")}</h4>
               </div>
           </div>
 
