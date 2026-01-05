@@ -49,13 +49,16 @@ body
 
 .current_weather
 {
-    width: 100%;
-    margin: 0 10px;
+    width: 98%;
+
+    margin: 40px 10px;
+    padding: 10px;
 
     display: grid;
     grid-template-columns : repeat(3, 1fr);
 
-    align-self: center;
+    backdrop-filter: blur(30px);
+    background-color: rgba(65, 65, 65, 0.308);
 }
 
 .current_weather_stat

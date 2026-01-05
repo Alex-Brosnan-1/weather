@@ -67,17 +67,17 @@ function App()
               <div className="current_weather_stat">
                   <p className="current_weather_stat_icon">✻</p>
                   <p className="current_weather_stat_name">Humidity</p>
-                  <p className="current_weather_stat_info">{cityData?.current?.relative_humidity_2m}</p>
+                  <p className="current_weather_stat_info">{cityData?.current?.relative_humidity_2m}%</p>
               </div>
               <div className="current_weather_stat">
                   <p className="current_weather_stat_icon">→</p>
                   <p className="current_weather_stat_name">Wind</p>
-                  <p className="current_weather_stat_info">{cityData?.current?.wind_speed_10m}</p>
+                  <p className="current_weather_stat_info">{cityData?.current?.wind_speed_10m}mph</p>
               </div>
               <div className="current_weather_stat">
                   <p className="current_weather_stat_icon">☀</p>
                   <p className="current_weather_stat_name">Temperature</p>
-                  <p className="current_weather_stat_info">{cityData?.current?.apparent_temperature}</p>
+                  <p className="current_weather_stat_info">{cityData?.current?.apparent_temperature}°</p>
               </div>
           </div>
 
