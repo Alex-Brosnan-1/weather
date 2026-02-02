@@ -10,9 +10,8 @@
   position: relative;
   display: flex;
   align-items: center;
-  background: none;
   backdrop-filter: blur(30px);
-  background-color: rgba(65, 65, 65, 0.308);
+  background: rgba(65, 65, 65, 0.308) none;
   border-radius: 8px;
   padding: 10px;
   overflow: hidden;
